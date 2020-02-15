@@ -1,0 +1,19 @@
+Started by user [8mha:////4Dt/mZSaZQ58y67ChFWe+jX9+QS6vZtpAokxPhgeo8/iAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL95MTcfCMTEwAqX1J/wgAAAA==[0mCole Moore
+Running as SYSTEM
+Building in workspace /home/camo244/.jenkins/workspace/mp1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/coleamoore/camo244.git # timeout=10
+Fetching upstream changes from https://github.com/coleamoore/camo244.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/coleamoore/camo244.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0e1a497bc0f76f7acf962fc2121a27f7fd26f65b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0e1a497bc0f76f7acf962fc2121a27f7fd26f65b # timeout=10
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 670110ddfbb292be3c3355243adbe07ffea6b066 # timeout=10
+ERROR: Maven Home /usr/bin/mvn is not a directory
+Finished: FAILURE
