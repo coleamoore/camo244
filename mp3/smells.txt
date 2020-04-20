@@ -1,1 +1,5 @@
+Cole Moore
+
+Question 1:
+Lines 558-568 in the getAvailables() method are repeated in the getUpdates() method. Used the Extract Method form of refactoring to create a new method, tryAddPluginToMap, that perfoms the repeated code.
 
