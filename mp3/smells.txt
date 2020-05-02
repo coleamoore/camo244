@@ -16,3 +16,4 @@ Question 5:
 The code smell was duplicate code.
 
 Question 6:
+Using the tool, I was able to find about 16 duplicate lines of code in HudsonTestCase and JenkinsRule files. I used the extract method to refactor the code.
