@@ -1,0 +1,18 @@
+Cole Moore
+
+Question 1:
+Lines 558-568 in the getAvailables() method are repeated in the getUpdates() method. Used the Extract Method form of refactoring to create a new method, tryAddPluginToMap, that perfoms the repeated code.
+
+Question 2:
+The code smell was duplicate code.
+
+Question 3:
+updateAndTrim() does not truly seem to belong in the Nodes class; the code only calls from the Jenkins class. Therefore, it should be moved to the jenkins.model.Jenkins class, as you can see in my code. This is an example of feature envy code smells, and it can be corrected with move refactoring.
+
+Question 4:
+Since the code uses only an iterator, we used a while loop to repeat the statements, instead of repeating them multiple times in the code. The code smell is duplicate code.
+
+Question 5:
+The code smell was duplicate code.
+
+Question 6:
